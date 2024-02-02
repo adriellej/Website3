@@ -42,8 +42,16 @@ body {
   margin: 5px;
 }
 
+.list-article .card-subtitle {
+  font-size: 14px;
+}
+
 .history-container {
   margin: 5% auto;
+}
+
+.footer-text {
+  font-size: 14px;
 }
 
 @media screen and (max-width: 760px) {
@@ -56,7 +64,7 @@ body {
   }
 
   .header-image {
-    height: 50vh;
+    height: 30vh;
   }
 
 }
