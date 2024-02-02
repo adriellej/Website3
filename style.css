@@ -21,18 +21,38 @@ body {
   padding: 10px 0;
 }
 
+.org-list {
+
+}
+
+.org-list img{
+  width: 175px;
+  height: 175px;
+}
+
 .article-container {
   margin: 5% auto;
 }
 
-.card {
+.org-list div {
+  text-align: center;
+}
+
+.list-article .card {
   margin: 5px;
 }
 
+.history-container {
+  margin: 5% auto;
+}
 
 @media screen and (max-width: 760px) {
-  .title-container, .list-article {
+  .title-container, .org-list, .list-article {
     flex-direction: column;
+  }
+
+  .main-title {
+    font-size: 45px;
   }
 
   .header-image {
