@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@font-face: "Roboto";
-
 body {
   margin: 0;
   padding: 0;
@@ -25,18 +22,23 @@ body {
 }
 
 .article-container {
-  
+  margin: 5% auto;
+}
+
+.card {
+  margin: 5px;
 }
 
 
 @media screen and (max-width: 760px) {
-  .title-container {
+  .title-container, .list-article {
     flex-direction: column;
   }
 
   .header-image {
     height: 50vh;
   }
+
 }
 
 /*
